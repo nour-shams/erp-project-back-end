@@ -22,8 +22,8 @@ Route::post('create-team', 'TeamsController@store');
 
 Route::put("team/{id}", "TeamsController@update");
 
-Route::get("team", "TeamController@teamListing");
+Route::get("teams", "TeamsController@teamListing");
 
-Route::get("team/{id}", "TeamController@teamDetail");
+Route::get("team/{id}", "TeamsController@teamDetail");
 
 Route::delete("team/{id}", "TeamsController@teamDelete");
